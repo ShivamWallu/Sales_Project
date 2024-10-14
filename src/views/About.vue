@@ -3,7 +3,7 @@
       <div class="header">
         <h1>About Me</h1>
         <div class="right-content">
-          <img :src="my" class="profile-image-large" alt="Profile picture" />
+          <img :src="imageUrl" class="profile-image-large" alt="Profile picture" />
         </div>
       </div>
       <div class="content">
@@ -49,13 +49,14 @@
   </template>
   
   <script>
-  import my from '@/assets/my.jpg'; // Update the path as needed
+  // import my from '@/assets/my.jpg'; // Update the path as needed
   
   export default {
     name: 'About',
     data() {
       return {
-        my,
+       // Set the URL of your image here
+        imageUrl: 'https://media.licdn.com/dms/image/v2/D5603AQGzl__BC3KtxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719769871531?e=1734566400&v=beta&t=vFfC6bCNRJC0Y7_QBrvt0wlGd8gdZq3N2DU66ME8n3M',
       };
     },
   };
