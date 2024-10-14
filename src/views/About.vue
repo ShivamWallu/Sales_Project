@@ -56,7 +56,7 @@
     data() {
       return {
        // Set the URL of your image here
-        imageUrl: 'https://media.licdn.com/dms/image/v2/D5603AQGzl__BC3KtxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719769871531?e=1734566400&v=beta&t=vFfC6bCNRJC0Y7_QBrvt0wlGd8gdZq3N2DU66ME8n3M',
+        // imageUrl: 'https://media.licdn.com/dms/image/v2/D5603AQGzl__BC3KtxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719769871531?e=1734566400&v=beta&t=vFfC6bCNRJC0Y7_QBrvt0wlGd8gdZq3N2DU66ME8n3M',
       };
     },
   };
