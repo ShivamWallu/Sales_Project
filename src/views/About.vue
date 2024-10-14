@@ -3,7 +3,7 @@
       <div class="header">
         <h1>About Me</h1>
         <div class="right-content">
-          <img :src="imageUrl" class="profile-image-large" alt="Profile picture" />
+          <img src="@/assets/my.jpg" class="profile-image-large" alt="Profile picture" />
         </div>
       </div>
       <div class="content">
